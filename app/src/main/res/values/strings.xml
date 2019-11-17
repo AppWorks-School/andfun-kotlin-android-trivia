@@ -34,4 +34,22 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_photo">My Photo</string>
+    <string name="name">Name</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="myname">Hsiaoling Chen</string>
+    <string name="my_name">Hsiaoling Chen</string>
+    <string name="profileFragment">profileTitle</string>
+    <string name="profile">profile</string>
+    <string name="about_me">About Me</string>
+    <string name="my_nickname">Hsiao Ling</string>
+    <string name="bio">Hi,I am Hsiao Ling.
+    \n\n I love learning and sleeping.
+    \n\n Since I join AppWorks School, my sleep time is getting less and less.
+    \n\n But my love to learn is getting more and more.
+    \n\n I believe my study will get better and better.
+    \n\n And I can sleep well with full of Android App Knowledge. </string>
 </resources>

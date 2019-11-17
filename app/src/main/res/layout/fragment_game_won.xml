@@ -55,5 +55,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/you_win" />
 
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="143dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/profile"
+            android:text="@string/profile"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nextMatchButton" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
