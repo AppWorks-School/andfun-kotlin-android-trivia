@@ -1,0 +1,43 @@
+Appworks School Andriod Class - Week2
+
+Q1 Interitenca 。 繼承是物件的再利用，當一個類別建立之後，其他的類別可以直接繼承這個類別的資料和方法。
+
+Q2 將字串用特定符號分開，例如:"-"如下例，在字串中只要遇到"-"就將前後字串切開。
+
+   var string = "ABC-DEF"
+   var parts = string.split("-".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+   var part1 = parts[0] // ABC
+   var part2 = parts[1] // DEF
+
+
+Q3 字串(String)和整數(Int),範例如下:
+   
+    fun main() {
+        val grades = mapOf("A" to 95, "B" to 100, "C" to 100)
+        for (i in grades) {
+             println(i)
+        }
+    }
+ 
+    
+    /*印出 A=95
+           B=100
+           C=100*/
+
+
+Q4 ArrayList 是依據索引取得資料，LinkedList 知道該資料前後節點資料。
+
+   對於快速的隨機取得物件，使用ArrayList有較好的效能，因為LinkedList不允許隨機讀取。
+   移除物件或插入物件時，使用 LinkedList有比較好的效能，因為它知道前後節點，會自動調整。
+
+
+Q5 Value Type 是數值類的變數，像是 Int、Float、Long、Short、Byte、Double。
+
+Q6 1) The maximum value of Int = 2,147,483,647。 2)  Long 。
+
+
+
+    
+  
+
+
